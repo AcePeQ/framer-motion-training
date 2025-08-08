@@ -1,6 +1,8 @@
 import Counter from "./components/Counter";
 import Exer1 from "./components/Exer1";
 import Exer2 from "./components/Exer2";
+import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
 import SimpleAnimation from "./components/SimpleAnimation";
 
 function App() {
@@ -10,7 +12,10 @@ function App() {
       {/* <Counter /> */}
       {/* <Exer1 /> */}
 
-      <Exer2 />
+      {/* <Exer2 /> */}
+
+      {/* <Navbar /> */}
+      <Navbar2 />
     </>
   );
 }
