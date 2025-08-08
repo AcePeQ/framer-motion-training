@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.hoverButton {
+  padding: 1rem;
+
+  background: none;
+  border: none;
+  color: inherit;
+
+  display: block;
+}

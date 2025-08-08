@@ -19,4 +19,8 @@ body {
 
   background-color: black;
   color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
