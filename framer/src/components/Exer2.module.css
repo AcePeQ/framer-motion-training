@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+
+  background-color: red;
+
+  h1,
+  p {
+    text-align: center;
+
+    margin-top: 1rem;
+  }
+}
+
+.list {
+  width: 250px;
+  height: 300px;
+
+  background-color: red;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.button {
+  padding: 1rem;
+
+  background: none;
+  border: none;
+
+  color: #fff;
+}
