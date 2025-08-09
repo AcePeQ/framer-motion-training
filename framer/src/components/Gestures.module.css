@@ -4,3 +4,13 @@
 
   gap: 2rem;
 }
+
+button {
+  padding: 2rem;
+  font-size: 2rem;
+
+  background: #fff;
+  border: none;
+
+  color: #000;
+}
