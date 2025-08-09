@@ -7,6 +7,7 @@ import Gestures from "./components/Gestures";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 import SimpleAnimation from "./components/SimpleAnimation";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <Navbar2 /> */}
       {/* <Gestures /> */}
-      <AnimatePresenceComp />
+      {/* <AnimatePresenceComp /> */}
+      <Slider />
     </>
   );
 }

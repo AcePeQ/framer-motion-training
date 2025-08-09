@@ -1,0 +1,20 @@
+.sliderItem {
+  width: 250px;
+  height: 300px;
+
+  background-color: red;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.buttons {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
