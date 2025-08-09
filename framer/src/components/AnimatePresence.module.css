@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+button {
+  padding: 2rem;
+  font-size: 2rem;
+
+  background: #fff;
+  border: none;
+
+  color: #000;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+
+  background-color: aqua;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+
+  background-color: aqua;
+}
+
+.input {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+
+  font-size: 2rem;
+  padding: 1rem;
+  outline: none;
+
+  background-color: green;
+}
+
+ul {
+  list-style: none;
+
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

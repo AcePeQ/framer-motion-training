@@ -1,3 +1,5 @@
+import AnimatePresenceComp from "./components/AnimatePresence";
+
 import Counter from "./components/Counter";
 import Exer1 from "./components/Exer1";
 import Exer2 from "./components/Exer2";
@@ -17,7 +19,8 @@ function App() {
 
       {/* <Navbar /> */}
       {/* <Navbar2 /> */}
-      <Gestures />
+      {/* <Gestures /> */}
+      <AnimatePresenceComp />
     </>
   );
 }
