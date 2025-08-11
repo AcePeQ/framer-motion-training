@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Slider.module.css";
 
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, usePresenceData } from "motion/react";
 
 const items = [
   { title: "Elo", message: "Elo" },
@@ -17,7 +17,7 @@ function Slider() {
   return (
     <>
       <div className={styles.slider}>
-        <AnimatePresence mode="wait">
+        <AnimatePresence custom={direction} mode="wait">
           <motion.div
             key={currentSlide}
             initial={{ x: direction * 100, opacity: 0 }}
