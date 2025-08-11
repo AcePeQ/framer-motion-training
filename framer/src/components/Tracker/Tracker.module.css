@@ -1,0 +1,17 @@
+.tracker {
+  width: 100dvw;
+  height: 100dvh;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.box {
+  width: 4rem;
+  height: 4rem;
+
+  background-color: red;
+
+  position: absolute;
+}
