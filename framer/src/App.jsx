@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
+import ProgressBar from "./components/ProgressBar/ProgressBar";
 
 import SimpleAnimation from "./components/SimpleAnimation";
 import Slider from "./components/Slider";
@@ -37,7 +38,9 @@ function App() {
       {/* <Tracker /> */}
       {/* <DragToReveal /> */}
 
-      <Parallax />
+      {/* <Parallax /> */}
+
+      <ProgressBar />
     </>
   );
 }
