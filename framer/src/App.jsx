@@ -7,6 +7,7 @@ import Gestures from "./components/Gestures";
 import MultiForm from "./components/MultiForm/MultiForm";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
+import Notification from "./components/Notification/Notification";
 import SimpleAnimation from "./components/SimpleAnimation";
 import Slider from "./components/Slider";
 
@@ -16,16 +17,15 @@ function App() {
       {/* <SimpleAnimation /> */}
       {/* <Counter /> */}
       {/* <Exer1 /> */}
-
       {/* <Exer2 /> */}
-
       {/* <Navbar /> */}
       {/* <Navbar2 /> */}
       {/* <Gestures /> */}
       {/* <AnimatePresenceComp /> */}
       {/* <Slider /> */}
+      {/* <MultiForm /> */}
 
-      <MultiForm />
+      <Notification />
     </>
   );
 }
