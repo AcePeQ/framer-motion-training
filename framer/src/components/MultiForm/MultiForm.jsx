@@ -7,6 +7,21 @@ import Address from "./Address";
 
 import Sumary from "./Sumary";
 
+export const formVariants = {
+  initial: (direction) => ({
+    opacity: 0,
+    x: direction * 100,
+  }),
+  animate: {
+    opacity: 1,
+    x: 0,
+  },
+  exit: (direction) => ({
+    opacity: 0,
+    x: direction * -100,
+  }),
+};
+
 function MultiForm() {
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
@@ -26,7 +41,13 @@ function MultiForm() {
   }
 
   const content =
-    step === 0 ? <Person /> : step === 1 ? <Address /> : <Sumary />;
+    step === 0 ? (
+      <Person key={step} direction={direction} />
+    ) : step === 1 ? (
+      <Address key={step} direction={direction} />
+    ) : (
+      <Sumary key={step} direction={direction} />
+    );
 
   return (
     <div className={styles.wrapper}>

@@ -1,9 +1,17 @@
-import { motion } from "motion/react";
+import { motion, usePresenceData } from "motion/react";
 import styles from "./Address.module.css";
+import { formVariants } from "./MultiForm";
 
-function Address() {
+function Address({ direction }) {
   return (
-    <motion.div className={styles.person}>
+    <motion.div
+      variants={formVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      custom={direction}
+      className={styles.person}
+    >
       <label>Miasto</label>
       <input />
 

@@ -1,9 +1,17 @@
 import { motion } from "motion/react";
 import styles from "./Person.module.css";
+import { formVariants } from "./MultiForm";
 
-function Person() {
+function Person({ direction }) {
   return (
-    <motion.div className={styles.person}>
+    <motion.div
+      variants={formVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      custom={direction}
+      className={styles.person}
+    >
       <label>Imie</label>
       <input />
 
