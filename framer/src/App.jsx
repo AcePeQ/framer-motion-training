@@ -1,3 +1,4 @@
+import Accordion from "./components/Accordion/Accordion";
 import AnimatePresenceComp from "./components/AnimatePresence";
 
 import Counter from "./components/Counter";
@@ -25,7 +26,9 @@ function App() {
       {/* <Slider /> */}
       {/* <MultiForm /> */}
 
-      <Notification />
+      {/* <Notification /> */}
+
+      <Accordion />
     </>
   );
 }
