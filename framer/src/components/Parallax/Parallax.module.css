@@ -1,20 +1,8 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  color: #fff;
-  background-color: #000;
-}
-
-/* Ogólny styl sekcji */
+/* Reset / bazowy styl */
 .section {
   position: relative;
   height: 100vh;
+  width: 100dvw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,18 +16,18 @@ body {
   max-width: 800px;
 }
 
-.section-title {
+.sectionTitle {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 /* Tło parallax (na razie statyczne) */
-.parallax-bg {
+.parallaxBg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 120%; /* trochę większe, żeby móc przesuwać */
+  height: 120%;
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -58,11 +46,15 @@ body {
   background-image: url("https://picsum.photos/1920/1080?random=3");
 }
 
-/* Różne kolory tekstu w sekcjach */
-.section-dark .content {
+/* Kolory sekcji */
+.sectionDark .content {
   color: #fff;
 }
 
-.section-light .content {
+.sectionLight .content {
   color: #000;
+}
+
+.sectionHero .content {
+  color: #fff;
 }
