@@ -2,6 +2,7 @@ import Accordion from "./components/Accordion/Accordion";
 import AnimatePresenceComp from "./components/AnimatePresence";
 
 import Counter from "./components/Counter";
+import DragToReveal from "./components/DragToReveal/DragToReveal";
 import Exer1 from "./components/Exer1";
 import Exer2 from "./components/Exer2";
 import Gestures from "./components/Gestures";
@@ -9,6 +10,7 @@ import MultiForm from "./components/MultiForm/MultiForm";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 import Notification from "./components/Notification/Notification";
+import Parallax from "./components/Parallax/Parallax";
 import SimpleAnimation from "./components/SimpleAnimation";
 import Slider from "./components/Slider";
 import Tracker from "./components/Tracker/Tracker";
@@ -31,7 +33,9 @@ function App() {
 
       {/* <Accordion /> */}
 
-      <Tracker />
+      {/* <Tracker /> */}
+      {/* <DragToReveal /> */}
+      <Parallax />
     </>
   );
 }
