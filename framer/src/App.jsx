@@ -19,6 +19,7 @@ import ScrollCounter from "./components/ScrollCounters/ScrollCounters";
 import SimpleAnimation from "./components/SimpleAnimation";
 import Slider from "./components/Slider";
 import Tracker from "./components/Tracker/Tracker";
+import ViewBasedAnimations from "./components/ViewBaseAnimations/ViewBaseAnimations";
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
 
       {/* <ScrollCounter /> */}
 
-      <AnimationControls />
+      {/* <AnimationControls /> */}
+      <ViewBasedAnimations />
     </>
   );
 }
