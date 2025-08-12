@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion/Accordion";
 import AnimatePresenceComp from "./components/AnimatePresence";
+import Card3D from "./components/Card3D/Card3D";
 
 import Counter from "./components/Counter";
 import DragToReveal from "./components/DragToReveal/DragToReveal";
@@ -12,6 +13,7 @@ import Navbar2 from "./components/Navbar2";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
+import ScrollCounter from "./components/ScrollCounters/ScrollCounters";
 
 import SimpleAnimation from "./components/SimpleAnimation";
 import Slider from "./components/Slider";
@@ -40,7 +42,10 @@ function App() {
 
       {/* <Parallax /> */}
 
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <Card3D />
+
+      {/* <ScrollCounter /> */}
     </>
   );
 }
