@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion/Accordion";
 import AnimatePresenceComp from "./components/AnimatePresence";
+import AnimationControls from "./components/AnimationControls";
 import Card3D from "./components/Card3D/Card3D";
 
 import Counter from "./components/Counter";
@@ -43,9 +44,11 @@ function App() {
       {/* <Parallax /> */}
 
       {/* <ProgressBar /> */}
-      <Card3D />
+      {/* <Card3D /> */}
 
       {/* <ScrollCounter /> */}
+
+      <AnimationControls />
     </>
   );
 }
