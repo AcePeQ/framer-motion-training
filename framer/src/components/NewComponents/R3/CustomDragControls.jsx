@@ -1,16 +1,22 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+
+import { motion, useDragControls } from "motion/react";
 
 const CustomDragControls = () => {
+  const dragConstrains = useRef();
   const [activeAxis, setActiveAxis] = useState(null);
+  const dragControls = useDragControls();
 
   const handleXDrag = (event) => {
     setActiveAxis("x");
     // Tutaj powinien być dragControls.start(event, { snapToCursor: true })
+    dragControls.start(event, { snapToCursor: true });
   };
 
   const handleYDrag = (event) => {
     setActiveAxis("y");
     // Tutaj powinien być dragControls.start(event, { snapToCursor: true })
+    dragControls.start(event, { snapToCursor: true });
   };
 
   const handleDragEnd = () => {
@@ -81,6 +87,7 @@ const CustomDragControls = () => {
 
         {/* Draggable Element */}
         <div
+          ref={dragConstrains}
           style={{
             width: "300px",
             height: "200px",
@@ -90,10 +97,14 @@ const CustomDragControls = () => {
             backgroundColor: "#ffffff",
           }}
         >
-          <div
+          <motion.div
+            drag={activeAxis ?? false}
+            dragConstraints={dragConstrains}
             // Ten element powinien mieć dragControls i dragListener: false
             // oraz reagować na activeAxis
             onDragEnd={handleDragEnd}
+            dragListener={false}
+            dragControls={dragControls}
             style={{
               width: "60px",
               height: "60px",
@@ -118,7 +129,7 @@ const CustomDragControls = () => {
             }}
           >
             {activeAxis ? activeAxis.toUpperCase() : "DRAG"}
-          </div>
+          </motion.div>
         </div>
       </div>
 

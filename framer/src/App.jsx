@@ -23,6 +23,7 @@ import SpringComparison from "./components/NewComponents/R2/SpringPhysics";
 import StaggeredList from "./components/NewComponents/R2/StaggeredList";
 import BasicDragConstraints from "./components/NewComponents/R3/BasicDrag";
 import CustomDragControls from "./components/NewComponents/R3/CustomDragControls";
+import SwipeCard from "./components/NewComponents/R3/SwipeCard";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -49,7 +50,8 @@ function App() {
       {/* <MultiHoverCard /> */}
 
       {/* <BasicDragConstraints /> */}
-      <CustomDragControls />
+      {/* <CustomDragControls /> */}
+      <SwipeCard />
     </>
   );
 }
