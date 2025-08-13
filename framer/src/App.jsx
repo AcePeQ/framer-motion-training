@@ -18,6 +18,7 @@ import ScaleButton from "./components/NewComponents/R1/ScaleButtonHover";
 import ToggleAnimation from "./components/NewComponents/R1/ToggleAnimation";
 import AdvancedButton from "./components/NewComponents/R2/AdvancedButton";
 import KeyframeAnimation from "./components/NewComponents/R2/ComplexKeyFrames";
+import MultiHoverCard from "./components/NewComponents/R2/MultiStageHoverCard";
 import SpringComparison from "./components/NewComponents/R2/SpringPhysics";
 import StaggeredList from "./components/NewComponents/R2/StaggeredList";
 import Notification from "./components/Notification/Notification";
@@ -42,7 +43,8 @@ function App() {
       {/* <AdvancedButton /> */}
       {/* <SpringComparison /> */}
       {/* <KeyframeAnimation /> */}
-      <StaggeredList />
+      {/* <StaggeredList /> */}
+      <MultiHoverCard />
     </>
   );
 }
