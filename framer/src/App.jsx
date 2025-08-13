@@ -16,6 +16,7 @@ import MultiStepAnimation from "./components/NewComponents/R1/MultiStepAnimation
 import LoadingSpinner from "./components/NewComponents/R1/RotatingSpinner";
 import ScaleButton from "./components/NewComponents/R1/ScaleButtonHover";
 import ToggleAnimation from "./components/NewComponents/R1/ToggleAnimation";
+import AdvancedButton from "./components/NewComponents/R2/AdvancedButton";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -29,12 +30,13 @@ import ViewBasedAnimations from "./components/ViewBaseAnimations/ViewBaseAnimati
 function App() {
   return (
     <>
-      {/* <FadeInCard /> */}
-      {/* <ScaleButton /> */}
-      {/* <LoadingSpinner /> */}
-      {/* <MultiStepAnimation /> */}
+      {/* <FadeInCard />
+      <ScaleButton />
+      <LoadingSpinner />
+      <MultiStepAnimation />
+      <ToggleAnimation /> */}
 
-      <ToggleAnimation />
+      <AdvancedButton />
     </>
   );
 }
