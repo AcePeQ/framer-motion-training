@@ -11,6 +11,9 @@ import Gestures from "./components/Gestures";
 import MultiForm from "./components/MultiForm/MultiForm";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
+import FadeInCard from "./components/NewComponents/R1/FadeInCard";
+import LoadingSpinner from "./components/NewComponents/R1/RotatingSpinner";
+import ScaleButton from "./components/NewComponents/R1/ScaleButtonHover";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -24,33 +27,9 @@ import ViewBasedAnimations from "./components/ViewBaseAnimations/ViewBaseAnimati
 function App() {
   return (
     <>
-      {/* <SimpleAnimation /> */}
-      {/* <Counter /> */}
-      {/* <Exer1 /> */}
-      {/* <Exer2 /> */}
-      {/* <Navbar /> */}
-      {/* <Navbar2 /> */}
-      {/* <Gestures /> */}
-      {/* <AnimatePresenceComp /> */}
-      {/* <Slider /> */}
-      {/* <MultiForm /> */}
-
-      {/* <Notification /> */}
-
-      {/* <Accordion /> */}
-
-      {/* <Tracker /> */}
-      {/* <DragToReveal /> */}
-
-      {/* <Parallax /> */}
-
-      {/* <ProgressBar /> */}
-      {/* <Card3D /> */}
-
-      {/* <ScrollCounter /> */}
-
-      {/* <AnimationControls /> */}
-      <ViewBasedAnimations />
+      {/* <FadeInCard /> */}
+      {/* <ScaleButton /> */}
+      <LoadingSpinner />
     </>
   );
 }
