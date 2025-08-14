@@ -24,6 +24,7 @@ import StaggeredList from "./components/NewComponents/R2/StaggeredList";
 import BasicDragConstraints from "./components/NewComponents/R3/BasicDrag";
 import CustomDragControls from "./components/NewComponents/R3/CustomDragControls";
 import SwipeCard from "./components/NewComponents/R3/SwipeCard";
+import ModalComponent from "./components/NewComponents/R4/NormalModal";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -51,7 +52,9 @@ function App() {
 
       {/* <BasicDragConstraints /> */}
       {/* <CustomDragControls /> */}
-      <SwipeCard />
+      {/* <SwipeCard /> */}
+
+      <ModalComponent />
     </>
   );
 }
