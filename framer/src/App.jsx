@@ -24,7 +24,9 @@ import StaggeredList from "./components/NewComponents/R2/StaggeredList";
 import BasicDragConstraints from "./components/NewComponents/R3/BasicDrag";
 import CustomDragControls from "./components/NewComponents/R3/CustomDragControls";
 import SwipeCard from "./components/NewComponents/R3/SwipeCard";
+import FilterableGallery from "./components/NewComponents/R4/Gallery";
 import ModalComponent from "./components/NewComponents/R4/NormalModal";
+import ImageSlider from "./components/NewComponents/R4/SwipeSlider";
 import TodoList from "./components/NewComponents/R4/TodoList";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
@@ -56,7 +58,9 @@ function App() {
       {/* <SwipeCard /> */}
 
       {/* <ModalComponent /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      {/* <ImageSlider /> */}
+      <FilterableGallery />
     </>
   );
 }
