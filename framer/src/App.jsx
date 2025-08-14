@@ -25,9 +25,11 @@ import BasicDragConstraints from "./components/NewComponents/R3/BasicDrag";
 import CustomDragControls from "./components/NewComponents/R3/CustomDragControls";
 import SwipeCard from "./components/NewComponents/R3/SwipeCard";
 import FilterableGallery from "./components/NewComponents/R4/Gallery";
+import MultiStepForm from "./components/NewComponents/R4/MultiForm";
 import ModalComponent from "./components/NewComponents/R4/NormalModal";
 import ImageSlider from "./components/NewComponents/R4/SwipeSlider";
 import TodoList from "./components/NewComponents/R4/TodoList";
+import ExpandableCardsGrid from "./components/NewComponents/R5/ExpendedCards";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -60,7 +62,9 @@ function App() {
       {/* <ModalComponent /> */}
       {/* <TodoList /> */}
       {/* <ImageSlider /> */}
-      <FilterableGallery />
+      {/* <FilterableGallery /> */}
+      {/* <MultiStepForm /> */}
+      <ExpandableCardsGrid />
     </>
   );
 }
