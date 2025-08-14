@@ -25,6 +25,7 @@ import BasicDragConstraints from "./components/NewComponents/R3/BasicDrag";
 import CustomDragControls from "./components/NewComponents/R3/CustomDragControls";
 import SwipeCard from "./components/NewComponents/R3/SwipeCard";
 import ModalComponent from "./components/NewComponents/R4/NormalModal";
+import TodoList from "./components/NewComponents/R4/TodoList";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -54,7 +55,8 @@ function App() {
       {/* <CustomDragControls /> */}
       {/* <SwipeCard /> */}
 
-      <ModalComponent />
+      {/* <ModalComponent /> */}
+      <TodoList />
     </>
   );
 }

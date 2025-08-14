@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { motion, useInView } from "framer-motion";
 
 const ViewBasedAnimations = () => {
   const ref = useRef(null);
