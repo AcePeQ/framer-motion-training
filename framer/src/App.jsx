@@ -29,7 +29,11 @@ import MultiStepForm from "./components/NewComponents/R4/MultiForm";
 import ModalComponent from "./components/NewComponents/R4/NormalModal";
 import ImageSlider from "./components/NewComponents/R4/SwipeSlider";
 import TodoList from "./components/NewComponents/R4/TodoList";
+import DynamicTabs from "./components/NewComponents/R5/DynamicTabs";
 import ExpandableCardsGrid from "./components/NewComponents/R5/ExpendedCards";
+import MasonryLayout from "./components/NewComponents/R5/MansoryLayoutFiltr";
+import SharedLayoutGallery from "./components/NewComponents/R5/SharedLayout TODO";
+import SortableTodoList from "./components/NewComponents/R5/SortableTodoList";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -64,7 +68,13 @@ function App() {
       {/* <ImageSlider /> */}
       {/* <FilterableGallery /> */}
       {/* <MultiStepForm /> */}
-      <ExpandableCardsGrid />
+      {/* <ExpandableCardsGrid /> */}
+
+      {/* <SortableTodoList /> */}
+      {/* <SharedLayoutGallery /> */}
+      {/* <DynamicTabs /> */}
+
+      <MasonryLayout />
     </>
   );
 }
