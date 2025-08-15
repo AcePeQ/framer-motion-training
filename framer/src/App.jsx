@@ -32,8 +32,9 @@ import TodoList from "./components/NewComponents/R4/TodoList";
 import DynamicTabs from "./components/NewComponents/R5/DynamicTabs";
 import ExpandableCardsGrid from "./components/NewComponents/R5/ExpendedCards";
 import MasonryLayout from "./components/NewComponents/R5/MansoryLayoutFiltr";
-import SharedLayoutGallery from "./components/NewComponents/R5/SharedLayout TODO";
+import SharedLayoutGallery from "./components/NewComponents/R5/SharedLayout";
 import SortableTodoList from "./components/NewComponents/R5/SortableTodoList";
+import MenuComponent from "./components/NewComponents/R6/OrchestraMenu";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -74,7 +75,9 @@ function App() {
       {/* <SharedLayoutGallery /> */}
       {/* <DynamicTabs /> */}
 
-      <MasonryLayout />
+      {/* <MasonryLayout /> */}
+
+      <MenuComponent />
     </>
   );
 }
