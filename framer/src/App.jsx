@@ -26,7 +26,7 @@ import CustomDragControls from "./components/NewComponents/R3/CustomDragControls
 import SwipeCard from "./components/NewComponents/R3/SwipeCard";
 import FilterableGallery from "./components/NewComponents/R4/Gallery";
 import MultiStepForm from "./components/NewComponents/R4/MultiForm";
-import ModalComponent from "./components/NewComponents/R4/NormalModal";
+// import ModalComponent from "./components/NewComponents/R4/NormalModal";
 import ImageSlider from "./components/NewComponents/R4/SwipeSlider";
 import TodoList from "./components/NewComponents/R4/TodoList";
 import DynamicTabs from "./components/NewComponents/R5/DynamicTabs";
@@ -35,6 +35,7 @@ import MasonryLayout from "./components/NewComponents/R5/MansoryLayoutFiltr";
 import SharedLayoutGallery from "./components/NewComponents/R5/SharedLayout";
 import SortableTodoList from "./components/NewComponents/R5/SortableTodoList";
 import CardsComponent from "./components/NewComponents/R6/CardsComponent";
+import ModalComponent from "./components/NewComponents/R6/Modal";
 import MenuComponent from "./components/NewComponents/R6/OrchestraMenu";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
@@ -79,7 +80,9 @@ function App() {
       {/* <MasonryLayout /> */}
 
       {/* <MenuComponent /> */}
-      <CardsComponent />
+      {/* <CardsComponent /> */}
+
+      <ModalComponent />
     </>
   );
 }
