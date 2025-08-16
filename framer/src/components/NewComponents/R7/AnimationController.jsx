@@ -54,20 +54,24 @@ export default function AnimationController() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [animationMode, setAnimationMode] = useState("linear");
   const [speed, setSpeed] = useState("normal");
+  const [presetAnimation, setPresetAnimation] = useState("Koło");
   const [currentPosition, setCurrentPosition] = useState({ x: 0, y: 0 });
 
   const handlePlay = () => {
-    setIsPlaying(true);
     setIsPlaying(true);
 
     const durationMultiplier =
       speedOptions.find((s) => s.value === speed)?.multiplier || 1;
 
+    const presentAnimation = animationModes.find(
+      (mode) => mode.value === animationMode
+    );
+
     controls.start({
-      x: path.map((p) => p.x),
-      y: path.map((p) => p.y),
+      x: presentAnimation.path.map((p) => p.x),
+      y: presentAnimation.path.map((p) => p.y),
       transition: {
-        duration: path.length * 1 * durationMultiplier, // np. 1s per krok
+        duration: presentAnimation.path.length * 1 * durationMultiplier, // np. 1s per krok
         ease:
           animationMode === "linear"
             ? "linear"
