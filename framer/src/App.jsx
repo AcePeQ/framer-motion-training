@@ -39,6 +39,7 @@ import DashboardComponent from "./components/NewComponents/R6/Dashboard";
 import ModalComponent from "./components/NewComponents/R6/Modal";
 import MultiStepFormComponent from "./components/NewComponents/R6/MultiForm";
 import MenuComponent from "./components/NewComponents/R6/OrchestraMenu";
+import AnimationController from "./components/NewComponents/R7/AnimationController";
 import Notification from "./components/Notification/Notification";
 import Parallax from "./components/Parallax/Parallax";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
@@ -87,7 +88,9 @@ function App() {
       {/* <ModalComponent /> */}
       {/* <DashboardComponent /> */}
 
-      <MultiStepFormComponent />
+      {/* <MultiStepFormComponent /> */}
+
+      <AnimationController />
     </>
   );
 }
